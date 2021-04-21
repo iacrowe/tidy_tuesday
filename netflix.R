@@ -29,7 +29,7 @@ plot_shows <-
   geom_raster(
     aes(x = id, y = type, fill = n)
   ) +
-  scale_fill_gradient(low = "#3E0000", high = "#F10B00") +
+  scale_fill_gradient(low = "#3E0000", high = "#E50914") +
   scale_x_continuous(
     name = "",
     breaks = c(9, 21, 33, 45, 57),
