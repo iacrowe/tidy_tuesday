@@ -10,3 +10,8 @@ tuesdata <- tidytuesdayR::tt_load('2021-04-13')
 tuesdata <- tidytuesdayR::tt_load(2021, week = 16)
 
 post_offices <- tuesdata$post_offices
+
+# load packages
+library(tidyverse)
+
+
