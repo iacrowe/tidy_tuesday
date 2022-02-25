@@ -20,7 +20,7 @@ freedom_plot_data <-
   mutate(
     Region_Name = as_factor(Region_Name),
     Region_Name = fct_relevel(Region_Name, "Americas", "Europe", 
-                              "Asia", "Africa", "Oceania", "Legend"))
+                              "Asia", "Legend", "Africa", "Oceania"))
 
 mean_vals <-
   freedom_plot_data %>%
